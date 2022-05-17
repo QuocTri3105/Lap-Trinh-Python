@@ -15,9 +15,7 @@ spider=Insect(8,0,"TRUE")
 centipede=Insect(46,0,"TRUE")
 
 class IsVariableEcology(Insect): #class con cua insect
-    def __init__(self, legs, wings, IsVenomous):
-        super().__init__(legs, wings, IsVenomous)
-        
+    pass
 butterfly = IsVariableEcology(6,2,"FALSE") 
 
 spider.showlegs()
